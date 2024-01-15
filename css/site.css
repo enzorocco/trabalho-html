@@ -1,0 +1,187 @@
+.azuldoce {
+  align-items: center;
+  appearance: none;
+  background-color: #3eb2fd;
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  color: #ffffff;
+  font-family: CircularStd, sans-serif;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+}
+.fundo {
+  background: hsla(213, 77%, 14%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+}
+
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3eb2fd;
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
+
+.textoBranco {
+  color: white;
+  font-family: CircularStd, sans-serif;
+  font-size: large;
+}
+
+.meio {
+  align-items: center;
+  justify-content: center;
+}
+
+.espaco-v {
+  margin-top: 10px;
+}
+
+.container {
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 30px;
+  max-width: 33%;
+}
+.pagina {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+}
+
+.item {
+  padding: 10px;
+  align-content: center;
+  position: relative;
+  display: block;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 350px;
+}
+
+.catalogo {
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagem-detalhe {
+  width: 450px;
+  height: 400px;
+}
+
+.card-produto {
+  padding: 20px 20px 20px 20px;
+  align-content: center;
+  position: relative;
+  display: block;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 480px;
+}
+
+.container-detalhe {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.titulo-produto {
+  color: white;
+  font-family: CircularStd, sans-serif;
+  font-size: 30px;
+}
+
+input {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.rodape {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.bg-full {
+  background-image: url(/imagens/bg-full.jpeg); /* Substitua com o formato correto da imagem */
+  background-repeat: no-repeat;
+  background-size: cover; /* Isso faz com que a imagem cubra completamente o elemento */
+}
+.intro-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+}
+
+.texto-intro {
+  font-size: 3rem;
+  color: white;
+}

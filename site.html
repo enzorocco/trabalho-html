@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="css/site.css" />
+    <meta charset="UTF-8" />
+    <title>Título da Página</title>
+    <script>
+      function mostrarTexto() {
+        document.getElementById("infoBrecho").innerHTML =
+          "Aqui no nosso brechó nós revendemos todas as tipos de roupa! <br/> Desde peças mais modernas até roupas mais clássicas.<br/> Todas as peças são autênticas e com excelente condição.<br/> Também aceitamos suas peças aqui na loja!";
+      }
+    </script>
+  </head>
+  <body class="fundo">
+    <h1 class="azuldoce">BRECHÓ DO TADS</h1>
+
+    <center class="meio">
+      <p class="textoBranco">
+        Roupas vendidas em segunda mão! Qualidade é aqui!.
+      </p>
+      <button class="button-21" role="button" onclick="mostrarTexto()">
+        Sobre nós
+      </button>
+      <p class="textoBranco" id="infoBrecho"></p>
+
+      <div class="container">
+        <span class="textoBranco">Login</span>
+        <form>
+          <input
+            class="button-21 espaco-v textoBranco"
+            type="text"
+            name="Usuário"
+            placeholder="Usuário"
+          /><br />
+          <input
+            class="button-21 espaco-v textoBranco"
+            type="password"
+            name="Senha"
+            placeholder="Senha"
+          /><br />
+          <a class="button-21 espaco-v" role="button" href="catalogo.html"
+            >AVANÇAR</a
+          ><br />
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
